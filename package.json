@@ -1,0 +1,25 @@
+{
+  "name": "developer-toolkit",
+  "version": "1.0.0",
+  "description": "Compendium of several useful tools",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test",
+    "package:linux": "electron-packager . --overwrite --platform=linux --arch=x64 --out=out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdominguez1993/DeveloperToolkit.git"
+  },
+  "author": "Victor Dominguez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vdominguez1993/DeveloperToolkit/issues"
+  },
+  "homepage": "https://github.com/vdominguez1993/DeveloperToolkit#readme",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-packager": "^14.1.1"
+  }
+}
